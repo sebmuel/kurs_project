@@ -79,7 +79,7 @@ Kurse "1" -- "n" Teilnehmer
 Teilnehmer "1" -- "1" Adressen
 Teilnehmer "1" --  "n" Testergbnisse
 Test "n" -- "1" Adressen
-Test "1" -- "n" Testergbnisse
-Testtemplate "1" -- "n" Test
+Test "1" --o "n" Testergbnisse
+Testtemplate "1" *-- "n" Test
 
 ```
