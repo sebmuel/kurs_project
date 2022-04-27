@@ -68,9 +68,11 @@ class Auth{
     - password: String
     - last_login: Date
     - login_attemps: Integer
+    - logged_in: Boolean
     + login()
     + logout()
     + forget_passwort()
+    + register_user()
 }
 
 Kurse "1" -- "n" Teilnehmer
