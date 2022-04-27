@@ -11,7 +11,6 @@ require_once "./includes/classes/auth.php";
 $auth = new Auth();
 
 
-
 ?>
 <!DOCTYPE html>
 <html>

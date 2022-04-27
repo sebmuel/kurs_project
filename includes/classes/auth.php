@@ -20,6 +20,9 @@ class Auth extends DatabaseObjekt
                 $_SESSION["logged"] = true;
                 $this->logged_in = true;
                 $this->last_login = date('d-m-y h:i:s');
+                return true;
+            } else {
+                return false;
             }
         } catch (PDOException $err) {
             echo $err->getMessage();
